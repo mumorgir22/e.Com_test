@@ -61,8 +61,8 @@ python3 test/test_script.py
 Примеры вывода скрипта после выполнения теста:
 ```python
 # Если найдены подходящая форма или формы
-"New Survey Form"
-"Survey Form"
+New Survey Form
+Survey Form
 
 # При отсутствии форм
 {
