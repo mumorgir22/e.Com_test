@@ -24,7 +24,7 @@ docker compose up -d
 ```bash
 mongoimport --db mongodb --collection collection --file test/collection.json --jsonArray
 ```
-5. #### Веб-приложение будет доступно по адресу http://127.0.0.1:8000
+5. #### Веб-приложение будет доступно по адресу http://127.0.0.1:8000/docs
 
    Добавление форм в бд (POST запрос) http://127.0.0.1:8000/add_template/
    
