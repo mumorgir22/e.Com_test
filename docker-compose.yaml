@@ -1,0 +1,27 @@
+version: "3.11"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ".:/code"
+    networks:
+      - my_network
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:6-jammy
+    ports:
+      - '27017:27017'
+    volumes:
+      - dbdata6:/data/db
+    networks:
+      - my_network
+
+volumes:
+  dbdata6:
+
+networks:
+  my_network:
+    driver: bridge

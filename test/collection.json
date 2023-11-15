@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {"$oid": "655486b46ebebecdc4bf8468"},
+    "email": "email",
+    "name": "Registration Form",
+    "password": "text",
+    "phone": "phone",
+    "user_name": "text"
+  },
+  {
+    "_id": {"$oid": "655486bc6ebebecdc4bf8469"},
+    "name": "Order Form",
+    "customer_email": "email",
+    "customer_name": "text",
+    "customer_phone": "phone",
+    "product_name": "text",
+    "quantity": "text"
+  },
+  {
+    "_id": {"$oid": "655486c26ebebecdc4bf846a"},
+    "email": "email",
+    "name": "Feedback Form",
+    "full_name": "text",
+    "message": "text",
+    "subject": "text"
+  },
+  {
+    "_id": {"$oid": "655486c76ebebecdc4bf846b"},
+    "name": "Event Registration Form",
+    "event_name": "text",
+    "participant_email": "email",
+    "participant_name": "text",
+    "participant_phone": "phone"
+  },
+  {
+    "_id": {"$oid": "655486cf6ebebecdc4bf846c"},
+    "email": "email",
+    "name": "Survey Form",
+    "phone": "phone",
+    "question_1": "text",
+    "question_2": "text"
+  },
+  {
+    "_id": {"$oid": "655486d76ebebecdc4bf846d"},
+    "name": "New Survey Form",
+    "question_1": "text",
+    "question_2": "text"
+  },
+  {
+    "_id": {"$oid": "655486f56ebebecdc4bf846e"},
+    "email": "email",
+    "name": "NewFeedbackForm",
+    "full_name": "text",
+    "message": "text"
+  },
+  {
+    "_id": {"$oid": "65548b3073686d698ff1ea43"},
+    "name": "Leave Application Form",
+    "employee_name": "text",
+    "end_date": "date",
+    "start_date": "date",
+    "supervisor_email": "email",
+    "supervisor_phone": "phone"
+  },
+  {
+    "_id": {"$oid": "65548b3973686d698ff1ea44"},
+    "name": "Real Estate Sale Form",
+    "listing_date": "date",
+    "property_name": "text",
+    "seller_email": "email",
+    "seller_name": "text",
+    "seller_phone": "phone"
+  }
+]
