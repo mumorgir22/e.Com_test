@@ -30,7 +30,7 @@ mongoimport --db mongodb --collection collection --file test/collection.json --j
    
    Получение заполненных форм или списка полей с их типами (POST запрос) http://127.0.0.1:8000/get_form/
    
-   К примеру http://127.0.0.1:8000/get_form/?f_name1=value1&f_name2=value2)
+   К примеру http://127.0.0.1:8000/get_form/?f_name1=value1&f_name2=value2
 
 ## Тестирование
 Для добавления новых записей в базу данных используйте скрипт `add_template_script.py`. Вы можете определить необходимые формы, изменив словарь `form` в коде скрипта.
