@@ -24,13 +24,13 @@ docker compose up -d
 ```bash
 mongoimport --db mongodb --collection collection --file test/collection.json --jsonArray
 ```
-5. #### Веб-приложение будет доступно по адресу [http://127.0.0.1:8000](http://127.0.0.1:8000)
+5. #### Веб-приложение будет доступно по адресу (http://127.0.0.1:8000)
 
-   Добавление форм в бд (POST запрос) [http://127.0.0.1:8000/add_template/](http://127.0.0.1:8000/add_template/)
+   Добавление форм в бд (POST запрос) (http://127.0.0.1:8000/add_template/)
    
-   Получение заполненных форм или списка полей с их типами (POST запрос) [http://127.0.0.1:8000/get_form/](http://127.0.0.1:8000/get_form/)
+   Получение заполненных форм или списка полей с их типами (POST запрос) (http://127.0.0.1:8000/get_form/)
    
-   К примеру [http://127.0.0.1:8000/get_form/?f_name1=value1&f_name2=value2](http://127.0.0.1:8000/get_form/?f_name1=value1&f_name2=value2)
+   К примеру http://127.0.0.1:8000/get_form/?f_name1=value1&f_name2=value2)
 
 ## Тестирование
 Для добавления новых записей в базу данных используйте скрипт `add_template_script.py`. Вы можете определить необходимые формы, изменив словарь `form` в коде скрипта.
